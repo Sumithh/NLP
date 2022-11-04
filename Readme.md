@@ -6,7 +6,7 @@ The whole pipeline is made in pyspark.
 
 Steps Involved. 
 1. Tweets are grabbed from twitter api via aws kenisis to s3 bucket
-2 Tweets are grabbed from amazon s3 bucket and mounted to pyspark 
+2. Tweets are grabbed from amazon s3 bucket and mounted to pyspark 
 3. Tweets are cleaned using pyspak regex function 
 4. Feature Engineering has been done with the help of python package Textblob. 
 5. For negative tweets its been labelled as 0 and for positive as 1. 
